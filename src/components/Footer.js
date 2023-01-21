@@ -1,5 +1,5 @@
 import github from "./../assets/images/github.png";
-import linkedin from "./../assets/images/Screenshot 2023-01-21 at 2.42.48 pm.png";
+import linkedin from "./../assets/images/linkedin.png";
 
 function Footer() {
   return (

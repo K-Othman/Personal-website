@@ -1,4 +1,4 @@
-import image2 from "./../assets/images/image2.webp";
+import karim from "./../assets/images/karim.webp";
 
 function Landing() {
   return (
@@ -14,7 +14,7 @@ function Landing() {
       </div>
       <figure>
         <img
-          src={image2}
+          src={karim}
           alt="My personal foto"
           className="w-4/5 md:w-[400px]"
         />
