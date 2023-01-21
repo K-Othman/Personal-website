@@ -24,11 +24,15 @@ function Footer() {
           Say Hello
         </a>
       </div>
-      <div className="flex gap-4 mx-auto md:mx-0 ">
+      <div className="flex gap-4 md:mx-0 ">
         <a href="https://github.com/K-Othman" target="_blank" rel="noreferrer">
           <img src={github} alt="github" className="w-[30px] h-[30px]" />
         </a>
-        <a href="#" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/karim-othman-7608b8ba/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={linkedin} alt="github" className="w-[30px] h-[30px]" />
         </a>
       </div>

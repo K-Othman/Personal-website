@@ -1,16 +1,16 @@
 import { useEffect, useRef } from "react";
-// import image4 from "./../assets/images/image4.webp";
+
 import Lottie from "lottie-web";
 
 function About() {
   const ref = useRef(null);
   useEffect(() => {
     const animation = Lottie.loadAnimation({
-      container: ref.current, // the dom element that will contain the animation
+      container: ref.current,
       renderer: "svg",
       loop: true,
       autoplay: true,
-      path: "https://assets3.lottiefiles.com/packages/lf20_jtbfg2nb.json", // the path to the animation json
+      path: "https://assets3.lottiefiles.com/packages/lf20_jtbfg2nb.json",
     });
     return () => animation.destroy();
   }, [ref]);
@@ -18,7 +18,7 @@ function About() {
   return (
     <section className="bg-[#3b749f] text-white py-12">
       <div className="wrapper flex flex-col md:flex-row items-center justify-between">
-        <div className="md:w-[500px] leading-[2.5rem] max-md:leading-[1.5rem] flex flex-col gap-6">
+        <div className="md:w-[500px] md:text-[20px] leading-[2.5rem] max-md:leading-[1.5rem] flex flex-col gap-5">
           <p>
             I specialise in creating engagging digital experiences with a
             current focus on building accessible and inclusive web products.
@@ -30,7 +30,6 @@ function About() {
         </div>
         <div className="mt-8 md:mt-0 w-4/5 md:w-[400px]">
           <div ref={ref} alt="developer" />
-          {/* <img src={image4} alt="about" className="rounded-md" /> */}
         </div>
       </div>
     </section>

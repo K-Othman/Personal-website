@@ -1,4 +1,3 @@
-// import image1 from "../image1.webp";
 import image2 from "./../assets/images/image2.webp";
 
 function Landing() {
