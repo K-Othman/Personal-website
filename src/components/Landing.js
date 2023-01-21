@@ -7,7 +7,7 @@ function Landing() {
         <p className="text-4xl max-md:text-[20px]">Hello!</p>
         <p className="text-[22px] leading-[2.5rem] max-md:leading-[1.5rem] max-md:text-[15px]">
           I'm Karim, a software engineer based in{" "}
-          <span className="text-[#4484B6] font-semibold"> Manchester, UK </span>
+          <span className="text-[#3b749f] font-semibold"> Manchester, UK </span>
           who's experienced in taking fullstack applications from scractch to
           production
         </p>
