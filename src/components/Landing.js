@@ -8,7 +8,7 @@ function Landing() {
         <p className="text-[22px] leading-[2.5rem] max-md:leading-[1.5rem] max-md:text-[15px]">
           I'm Karim, a software engineer based in{" "}
           <span className="text-[#3b749f] font-semibold"> Manchester, UK </span>
-          who's experienced in taking fullstack applications from scractch to
+          who's experienced in taking fullstack applications from scratch to
           production
         </p>
       </div>

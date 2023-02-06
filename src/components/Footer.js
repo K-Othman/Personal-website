@@ -29,7 +29,7 @@ function Footer() {
           <img src={github} alt="github" className="w-[30px] h-[30px]" />
         </a>
         <a
-          href="https://www.linkedin.com/in/karim-othman-7608b8ba/"
+          href="https://www.linkedin.com/in/karim-abdelghany-7608b8ba/"
           target="_blank"
           rel="noreferrer"
         >

@@ -20,8 +20,8 @@ function About() {
       <div className="wrapper flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-[500px] md:text-[20px] leading-[2.5rem] max-md:leading-[1.5rem] flex flex-col gap-5">
           <p>
-            I specialise in creating engagging digital experiences with a
-            current focus on building accessible and inclusive web products.
+            I specialise in creating engaging digital experiences with a current
+            focus on building accessible and inclusive web products.
           </p>
           <p>
             A few technologies I have been working with include: JavaScript,
